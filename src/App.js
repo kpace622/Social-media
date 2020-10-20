@@ -18,7 +18,7 @@ function App() {
   return (
     <div className="App">
       <header className='app-header'>
-
+        <h1 className='title'>Chat</h1>
       </header>
 
       <section>

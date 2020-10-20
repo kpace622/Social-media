@@ -21,6 +21,9 @@ body {
   display: flex;
   justify-content: center;
   justify-content: space-between;
+  background: grey;
+  padding: 1rem;
+  font-size: 1.4rem;
 }
 
 form {
@@ -52,7 +55,7 @@ input {
 main {
   padding: 10px;
   height: 50vh;
-  margin: 10vh 0 10vh;
+  margin: 5vh 0 10vh;
   overflow-y: scroll;
   display: flex;
   flex-direction: column;
@@ -61,4 +64,22 @@ main {
 .received {
   flex-direction: row-reverse;
   color: green;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: wheat;
+}
+
+::-webkit-scrollbar-thumb {
+  background: darkgray; 
+  border-radius: 10px;
+}
+
+.title {
+  margin-top: 2rem;
+  margin-bottom: 0;
 }
